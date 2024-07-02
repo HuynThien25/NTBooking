@@ -1,0 +1,123 @@
+/* destWeLove.css */
+.discounts {
+  background-image: url("https://cf2.bstatic.com/psb/capla/static/media/world-map.7d457a5d.png");
+  background-position: 100% 0px;
+  display: grid;
+  justify-content: space-between;
+  border: 1px solid #e7e7e7;
+  border-radius: 5px;
+  font-size: 17px;
+  gap: normal 25px;
+  grid-template-areas: "image text" "image buttons";
+  grid-template-columns: 190px 1024px;
+  grid-template-rows: 150px 36px;
+  line-height: 20px;
+  /* max-width: 1224px; */
+}
+
+.imgDisc {
+  object-fit: cover;
+  width: 100%;
+}
+
+.discTitle {
+  color: #1A1A1A;
+  font-size: 28px;
+  font-weight: 700;
+  padding-top: 10px;
+  margin: 20px;
+}
+
+.discP {
+  color: #1A1A1A;
+  margin: 20px;
+}
+
+.btnDisc1 {
+  background-color: #fff;
+  font-weight: 500;
+  border: 1px solid #006ce4;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 15px;
+  color: #006ce4;
+  margin: 20px;
+}
+
+.btnDisc2 {
+  background-color: #fff;
+  font-weight: 500;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 15px;
+  color: #006ce4;
+}
+
+.btnDisc1:hover {
+  background-color: #006ce40d;
+  transition: ease-in-out 0.3s;
+}
+
+.btnDisc2:hover {
+  background-color: #006ce40d;
+  transition: ease-in-out 0.3s;
+}
+
+.destWeLove {
+  max-width: 1224px;
+  padding-top: 30px;
+}
+
+.destBtn1, .destBtn2 {
+  border: 2px solid transparent;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 15px;
+  text-align: center;
+  border-radius: 999px;
+  color: #1a1a1a;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border 0.3s ease;
+}
+
+.destBtn1.active, .destBtn2.active {
+  border-color: #006ce4;
+  background-color: #006ce40f;
+  color: #006ce4;
+}
+
+.destBtn1:hover, .destBtn2:hover {
+  background-color: #1a1a1a0f;
+}
+
+.content {
+  display: none;
+  padding-top: 30px;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.content.active {
+  display: block;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid-item {
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.ia_link {
+  display: block;
+  margin-bottom: 5px;
+}

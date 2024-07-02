@@ -1,0 +1,175 @@
+.hotelContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 55px;
+}
+
+.hotelTitle{
+    font-size: 32px;
+}
+
+.hotelAddress{
+    font-size:15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bookNow{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    border: none;
+    padding: 18px 24px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.bookNow>button:hover{
+    background-color: #0071c2e6;
+    transition: ease-in-out 0.3s;
+}
+
+.hotelWrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.hotelImgWrapper{
+    width: 33%;
+}
+
+.hotelDistance{
+    color: #0071c2;
+    font-weight: 500;
+}
+
+.hotelPriceHighlight{
+    color: #008009;
+    font-weight: 500;
+}
+
+.hotelImages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hotelImg{
+    width: 100%;
+    object-fit: cover;
+}
+
+.hotelDetails{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.hotelDetailsTexts{
+    flex: 3;
+}
+
+.hotelDesc{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.hotelDetailsPrice{
+    flex: 1;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 7px;
+}
+
+.hotelDetailsPrice>h1{
+    font-size: 16px;
+    color: #555;
+}
+
+.hotelDetailsPrice>span{
+    font-size: 16px;
+    color: #555;
+}
+
+.hotelDetailsPrice>h2{
+    font-weight: 300;
+}
+
+.hotelDetailsPrice>button{
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.hotelDetailsPrice>button:hover{
+    background-color: #0071c2e6;
+    transition: ease-in-out 0.3s;
+}
+
+.slider{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sliderWrapper{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    max-width: 1224px;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+
+.sliderImg{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    align-items: center;
+    text-align: center;
+}
+
+.close{
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    font-size: 35px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.arrow{
+    margin: 20px;
+    font-size: 40px;
+    color: #fff;
+    cursor: pointer;
+}
+

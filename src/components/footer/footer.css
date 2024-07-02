@@ -1,0 +1,64 @@
+.footer {
+  width: 100%;
+  font-size: 15px;
+  max-width: 1224px;
+}
+
+.fLists {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.fList {
+  list-style: none;
+  padding: 0;
+}
+
+.fListItem {
+  margin-bottom: 10px;
+  color: #003b95;
+  cursor: pointer;
+}
+
+.fListItem:hover {
+  color: #ffa500;
+  transition: ease-in-out 0.3s;
+}
+
+.footer_priceline_list {
+  padding: 20px 0 0;
+  text-align: center;
+}
+
+.footer_priceline_list li {
+  list-style: none;
+  padding: 0 20px;
+  display: inline-block;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+.goBackIcon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0071c2;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .goBackIcon:hover {
+    background-color: #005bb5;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .goBackIcon svg {
+    width: 20px;
+    height: 20px;
+  }

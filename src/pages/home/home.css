@@ -1,0 +1,19 @@
+body {
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  
+}
+  
+.homeContainer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.homeTitle{
+    width: 1224px;
+    font-size: 25px;
+}

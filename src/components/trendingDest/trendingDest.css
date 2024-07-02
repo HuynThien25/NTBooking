@@ -1,0 +1,44 @@
+.trendingContainer {
+  width: 100%;
+  max-width: 1224px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Tạo 2 cột */
+  grid-template-rows: repeat(3, auto); /* Tạo 3 hàng */
+  gap: 20px;
+}
+
+.trendingItem {
+  position: relative;
+  overflow: hidden; /* Đảm bảo không có nội dung nào tràn ra ngoài */
+  cursor: pointer; 
+}
+
+.trendingItem:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  transition: box-shadow 0.3s;
+}
+
+.trendingImg {
+  width: 100%;
+  height: 300px; /* Đặt chiều cao cố định cho hình ảnh */
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
+}
+
+.trendingOverlay {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+
+.trendingText {
+  font-size: 20px;
+  font-weight: bold;
+}
+
